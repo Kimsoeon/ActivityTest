@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="soeonkim.kr.hs.emirim.activitytest.MainActivity">
+    tools:context="soeonkim.kr.hs.emirim.activitytest.MainActivity"
+    android:background="#c871f6ed">
 
     <Button
-        android:id="@+id/but_second"
+        android:id="@+id/butSecond"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Main Activity로 돌아가기"/>
