@@ -5,8 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="soeonkim.kr.hs.emirim.activitytest.MainActivity"
+    android:orientation="vertical"
     android:background="#c871f6ed">
 
+
+    <TextView
+        android:id="@+id/text_Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"/>
     <Button
         android:id="@+id/butSecond"
         android:layout_width="match_parent"
